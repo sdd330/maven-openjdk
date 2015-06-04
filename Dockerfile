@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8
+FROM frolvlad/alpine-openjdk7
 
 MAINTAINER yang.leijun@gmail.com
 
