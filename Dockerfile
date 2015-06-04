@@ -2,6 +2,9 @@ FROM frolvlad/alpine-openjdk7
 
 MAINTAINER yang.leijun@gmail.com
 
+# Install packages
+RUN apk add --update bash curl && rm -rf /var/cache/apk/*
+
 # Install maven
 ENV MAVEN_VERSION 3.3.3
 
